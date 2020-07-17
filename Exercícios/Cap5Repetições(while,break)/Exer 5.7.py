@@ -6,7 +6,7 @@ n1 = int(input(" Tabuada de: "))
 x = int(input(" \nNúmero inicial: "))
 n2 = int(input(" Número final: "))
 if x > n2:
-    print("\n        Número inicial não pode ser menor que o final.")
+    print("\n        Número inicial não pode ser maior que o final.")
 
 while x <= n2:
     print(n1,"X",x,"=",n1*x)
